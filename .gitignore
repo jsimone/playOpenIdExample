@@ -7,3 +7,5 @@ test-result/
 lib/
 tmp/
 modules/
+eclipse/
+.settings/
