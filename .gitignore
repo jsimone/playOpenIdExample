@@ -9,3 +9,5 @@ tmp/
 modules/
 eclipse/
 .settings/
+.project
+.classpath
