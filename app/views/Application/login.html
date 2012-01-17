@@ -1,0 +1,9 @@
+#{if flash.error}
+<h2 style="color:red">${flash.error}</h2>
+#{/if}
+ 
+<h1>Login with your Google Apps account</h1>
+<a href="@{Application.authenticate()}">Login</a><br>
+Or if you're already logged in with a different account you can log out and then come back:
+<a href="https://accounts.google.com/Logout?hl=en">Logout</a>
+</code>
